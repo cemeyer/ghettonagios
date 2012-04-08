@@ -1,0 +1,9 @@
+This was hacked together during a 2-day regional CCDC competition in 2011.
+
+It saved our asses a couple of times. It's pretty ugly, but that's kind of
+the point.
+
+Usage is something like:
+  - hack it to do what you want
+  - while true ; do bash gettonagios.sh > out.html.new ; mv out.html.new out.html ; done
+  - chromium-browser out.html
